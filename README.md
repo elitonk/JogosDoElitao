@@ -1,4 +1,4 @@
-## [JogosDoElitao](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/elitonk/JogosDoElitao)
+## [Jogos Do Elitão](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/elitonk/JogosDoElitao)
 Depósito de scripts de mini jogos para o chat da twitch, usando StreamLabs ChatBot
 
 
@@ -18,7 +18,7 @@ Depósito de scripts de mini jogos para o chat da twitch, usando StreamLabs Chat
 
 
 
-***[Jogo de palavras para o Streamlabs Bot em Português por ElitonK](https://github.com/elitonk/JogosDoElitao/tree/main/Mini%20jogos%20ElitonK%20scripts/Palavras)***
+***[Jogo de palavras para o Streamlabs Bot em Português por ElitonK](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/elitonk/JogosDoElitao/tree/main/Mini%20jogos%20ElitonK%20scripts/Palavras)***
 
  - Habilite/Disabilite o mini jogo quando a live estiver off
  - Habilite/Disabilite distinção entre letras maiúsculas e minúsculas
@@ -31,7 +31,7 @@ Depósito de scripts de mini jogos para o chat da twitch, usando StreamLabs Chat
 
 
 
-***[Mini jogo de moeda para Streamlabs Bot em português](https://github.com/elitonk/JogosDoElitao/tree/main/Mini%20jogos%20ElitonK%20scripts/Moeda)***
+***[Mini jogo de moeda para Streamlabs Bot em português](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/elitonk/JogosDoElitao/tree/main/Mini%20jogos%20ElitonK%20scripts/Moeda)***
 
  - Habilite/Disabilite o mini jogo quando a live estiver off
  - Habilite/Disabilite usando quantias customizáveis de apostas
