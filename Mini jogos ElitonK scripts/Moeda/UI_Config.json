@@ -1,0 +1,132 @@
+{
+    "output_file": "config.json",
+
+    "liveOnly": {
+        "type": "checkbox",
+        "value": true,
+        "label": "Modo só ao vivo",
+        "tooltip": "Marque se você só quer que funcione quando você estiver ao vivo",
+        "group" : "Geral"
+    },
+    "command": {
+        "type": "textbox",
+        "value": "!moeda",
+        "label": "Comando",
+        "tooltip": "Nome do comando",
+        "group": "Geral"
+    },
+    "permission": {
+        "type": "dropdown",
+        "value": "Everyone",
+        "items": ["Everyone","Regular","Subscriber","Moderator","Editor"],
+        "label": "Nível de permissão",
+        "tooltip": "Defina o nível de permissão para participação",
+        "group": "Geral"
+    },
+    "useCustomCosts": {
+        "type": "checkbox",
+        "value": true,
+        "label": "Usar custos personalizados",
+        "tooltip": "Habilite/desabilite custo definido pelo usuário",
+        "group": "Moeda"
+    },
+    "costs": {
+        "type": "numberbox",
+        "value": 1,
+        "label": "Custo para jogar o jogo",
+        "tooltip": "Defina o custo padrão para usar este comando.",
+        "group": "Moeda"
+    },
+    "reward": {
+        "type": "numberbox",
+        "value": 2,
+        "label": "Multiplicador de vencedor",
+        "tooltip": "Defina o multiplicador para o vencedor.",
+        "group": "Moeda"
+    },
+    "emoteWon": {
+        "type": "textbox",
+        "value": "VoteYea",
+        "label": "Emoticon para ganhador",
+        "tooltip": "O emoticon ou texto a ser usado quando o usuário ganha",
+        "group": "Moeda"
+    },
+    "emoteLost": {
+        "type": "textbox",
+        "value": "VoteNay",
+        "label": "Emoticon para perdedor",
+        "tooltip": "O emoticon ou texto a ser usado quando o usuário perde",
+        "group": "Moeda"
+    },
+    "useCooldown": {
+        "type": "checkbox",
+        "value": true,
+        "label": "Usar Cooldowns",
+        "tooltip": "Habilite/desabilite tempo de espera e tempo de espera de usuário",
+        "group": "Cooldown/tempo de espera"
+    },
+    "useCooldownMessages": {
+        "type": "checkbox",
+        "value": true,
+        "label": "Usar mensagens de Cooldown",
+        "tooltip": "Habilite/desabilite mensagens de tempo de espera",
+        "group": "Cooldown/tempo de espera"
+    },
+    "cooldown": {
+        "type": "numberbox",
+        "label": "Tempo de espera (segundos)",
+        "value": 1,
+        "tooltip": "Cooldown em segundos.",
+        "group": "Cooldown/tempo de espera"
+    },
+    "onCooldown": {
+        "type": "textbox",
+        "value": "$user, $comando está em tempo de espera, recarregando em $cd minutos!",
+        "label": "Resposta de Cooldown",
+        "tooltip": "A mensagem que o bot irá mostrar quando o comando estiver em tempo de espera. \r\n $user = Usuário \r\n $cd = Tempo restante \r\n $comando = Nome do comando",
+        "group": "Cooldown/tempo de espera"
+    },
+    "userCooldown": {
+        "type": "numberbox",
+        "label": "User Cooldown (seconds)",
+        "value": 150,
+        "tooltip": "Tempo de espera do usuário em segundos.",
+        "group": "Cooldown/tempo de espera"
+    },
+    "onUserCooldown": {
+        "type": "textbox",
+        "value": "$user, $comando ainda está recarregando em $cd minutos pra você!",
+        "label": "Resposta de tempo de recarga do usuário",
+        "tooltip": "A mensagem que o bot irá mostrar quando o comando estiver em tempo de espera do usuário. \r\n $user = Usuário \r\n $cd = Tempo restante \r\n $comando = Nome do comando",
+        "group": "Cooldown/tempo de espera"
+    },
+    "responseNotEnoughPoints": {
+        "type": "textbox",
+        "value": "$user cê só tem $pontos $moeda pra jogar a moeda.",
+        "label": "Sem pontos suficientes",
+        "tooltip": "Mensagem que o bot irá mostrar quando o usuário não tiver dindin suficiente.\r\n $user = Usuário\r\n $pontos = Saldo atual de pontos do usuário\r\n $moeda = Nome da Moeda\r\n $custo = Custo pra jogar",
+        "group": "Mensagens resposta"
+    },
+    "responseWon": {
+        "type": "textbox",
+        "value": "$user jogou a moeda $ganhou e ganhou $recompensa $moeda",
+        "label": "Mensagem de usuário vencedor",
+        "tooltip": "Mensagem que será mostrada se o usuário vencer.\r\n $user = Usuário\r\n $pontos = Saldo atual de pontos do usuário\r\n $moeda = Nome da Moeda\r\n $recompensa = Recompensa do vencedor\r\n $ganhou = Emoticon para vencedor\r\n $custo = Custo pra jogar",
+        "group": "Mensagens resposta"
+    },
+    "responseLost": {
+        "type": "textbox",
+        "value": "$user jogou a moeda $perdeu e perdeu $recompensa $moeda",
+        "label": "Mensagem de usuário perdedor",
+        "tooltip": "Mensagem que será mostrada se o usuário perder.\r\n $user = Usuário\r\n $pontos = Saldo atual de pontos do usuário\r\n $moeda = Nome da Moeda\r\n $perdeu = Emoticon para perdedor\r\n $custo = Custo pra jogar",
+        "group": "Mensagens resposta"
+    },
+    "openReadMe": {
+        "type": "button",
+        "label": "Abrir arquivo 'Leia Me'",
+        "tooltip": "Abre o 'LeiaMe.txt' para este script do elitão.",
+        "function": "OpenReadMe",
+        "wsevent": "",
+        "group": ""
+    }
+}
