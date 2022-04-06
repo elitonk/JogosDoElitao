@@ -3,7 +3,7 @@ Depósito de scripts de mini jogos para o chat da twitch, usando StreamLabs Chat
 
 
 
-***Mini jogo de quiz, perguntas e respostas para Streamlabs Bot em português
+**Mini jogo de quiz, perguntas e respostas para Streamlabs Bot em português**
 
  - Habilite/Disabilite o mini jogo quando a live estiver off
  - Habilite/Disabilite distinção entre letras maiúsculas e minúsculas para respostas
@@ -18,7 +18,7 @@ Depósito de scripts de mini jogos para o chat da twitch, usando StreamLabs Chat
 
 
 
-***Jogo de palavras para o Streamlabs Bot em Português por ElitonK
+***Jogo de palavras para o Streamlabs Bot em Português por ElitonK***
 
  - Habilite/Disabilite o mini jogo quando a live estiver off
  - Habilite/Disabilite distinção entre letras maiúsculas e minúsculas
@@ -31,7 +31,7 @@ Depósito de scripts de mini jogos para o chat da twitch, usando StreamLabs Chat
 
 
 
-***Mini jogo de moeda para Streamlabs Bot em português
+**Mini jogo de moeda para Streamlabs Bot em português**
 
  - Habilite/Disabilite o mini jogo quando a live estiver off
  - Habilite/Disabilite usando quantias customizáveis de apostas
